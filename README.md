@@ -5,6 +5,7 @@ my build of dwm and dwmblocks is also included.
 
 # Structure
 
+```
 .
 ├── .bashrc
 ├── bin
@@ -20,3 +21,4 @@ my build of dwm and dwmblocks is also included.
 ├── .zprofile
 ├── .zshrc
 └── README.md 
+```
