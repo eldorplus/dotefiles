@@ -1,5 +1,6 @@
 #!/bin/sh
 
-brightness=$(xbacklight -get)
+# brightness=$(xbacklight -get)
+brightness=$(python -c "from math import ceil; print(ceil($(xbacklight -get)))")
 
-printf "B %.1f%%" "$brightness"
+printf "Brightness %d%%" "$brightness"

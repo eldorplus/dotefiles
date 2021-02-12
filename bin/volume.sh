@@ -2,4 +2,4 @@
 
 volume=$(pamixer --get-volume)
 
-printf " S %s%%" "$volume"
+printf " Volume %s%%" "$volume"
